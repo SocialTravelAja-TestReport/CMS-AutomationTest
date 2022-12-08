@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Role Management Element Visibility" skipped="0" tests="3" time="15.08" timestamp="2022-12-08 02:25:55"><testcase name="Verify critical element visibility"/><testcase name="Verify column visibility"/><testcase name="Verify action button visibility"/></testsuite>

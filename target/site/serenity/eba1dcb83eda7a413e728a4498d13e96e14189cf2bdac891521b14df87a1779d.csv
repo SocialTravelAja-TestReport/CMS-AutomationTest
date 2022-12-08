@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Page Navigation","Verify navigating page trough nav bar","SUCCESS","2022-12-08T14:27:08.385976+07:00[Asia/Jakarta]","0.0","22.93"
+"Page Navigation","Verify navigating page trough directly typed","SUCCESS","2022-12-08T14:27:31.328431+07:00[Asia/Jakarta]","0.0","20.99"

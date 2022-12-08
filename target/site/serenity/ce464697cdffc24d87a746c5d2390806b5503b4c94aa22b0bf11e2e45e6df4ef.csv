@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Role Management Search Bar","Verify search by Nama Role","SUCCESS","2022-12-08T14:26:10.820631+07:00[Asia/Jakarta]","0.0","18.93"
+"Role Management Search Bar","Verify search by Privilege","SUCCESS","2022-12-08T14:26:29.761216+07:00[Asia/Jakarta]","0.0","19.79"
+"Role Management Search Bar","Verify search by null value","SUCCESS","2022-12-08T14:26:49.563754+07:00[Asia/Jakarta]","0.0","18.81"
