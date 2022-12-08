@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"CRUD flow","Verify view detailed role information","SUCCESS","2022-12-08T14:22:07.024838+07:00[Asia/Jakarta]","0.0","30.74"
+"CRUD flow","Verify create new role by multiple tap","SUCCESS","2022-12-08T14:23:13.207128+07:00[Asia/Jakarta]","0.0","31.63"
+"CRUD flow","Verify create new role functionality","SUCCESS","2022-12-08T14:23:49.902928+07:00[Asia/Jakarta]","0.0","37.75"

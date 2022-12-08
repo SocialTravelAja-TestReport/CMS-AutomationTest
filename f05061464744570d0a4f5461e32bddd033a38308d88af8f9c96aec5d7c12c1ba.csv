@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Role Management Element Visibility","Verify critical element visibility","SUCCESS","2022-12-08T14:25:55.65851+07:00[Asia/Jakarta]","0.0","5.03"
+"Role Management Element Visibility","Verify column visibility","SUCCESS","2022-12-08T14:26:00.702954+07:00[Asia/Jakarta]","0.0","5.03"
+"Role Management Element Visibility","Verify action button visibility","SUCCESS","2022-12-08T14:26:05.742277+07:00[Asia/Jakarta]","0.0","5.03"

@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Role ManagementAuthentication","Verify accessing page without authorization","SUCCESS","2022-12-08T14:24:54.278968+07:00[Asia/Jakarta]","0.0","19.35"
+"Role ManagementAuthentication","Verify accessing page with authorized credentials","SUCCESS","2022-12-08T14:25:13.644591+07:00[Asia/Jakarta]","0.0","19.66"
+"Role ManagementAuthentication","Verify accessing page with unauthorized credentials","SUCCESS","2022-12-08T14:25:33.320175+07:00[Asia/Jakarta]","0.0","22.32"
