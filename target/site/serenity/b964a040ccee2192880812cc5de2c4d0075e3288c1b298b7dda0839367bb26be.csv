@@ -1,3 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
 "CRUD flow","Verify if Nama Role is unique","FAILURE","2022-12-08T14:23:08.137987+07:00[Asia/Jakarta]","0.0","5.05"
-"Tambah Role Page","Verify Tambah Role Modal element visibility","FAILURE","2022-12-08T14:28:29.238539+07:00[Asia/Jakarta]","0.0","19.54"

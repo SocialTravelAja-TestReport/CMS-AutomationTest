@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="CRUD flow" skipped="0" tests="1" time="49.31" timestamp="2022-12-08 03:45:40"><testcase name="Verify edit role privilege only"/></testsuite>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="CRUD flow" skipped="0" tests="1" time="68.71" timestamp="2022-12-08 04:08:24"><testcase name="Verify edit role privilege only"/></testsuite>

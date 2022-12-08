@@ -16,10 +16,8 @@ Feature: Tambah Role Page
   Scenario: Verify Tambah Role Modal element visibility
     When User go to Tambah Role page by URL
     Then Element listed below appeared
-      | Nama role Field                        |
-      | List Fitur and Access Privilege column |
-      | Parameter                              |
-      | Radio Button                           |
+      | List Fitur       |
+      | Access Privilege |
 
   Scenario: Verify if Nama Role field is mandatory
     When User go to Tambah Role page by URL

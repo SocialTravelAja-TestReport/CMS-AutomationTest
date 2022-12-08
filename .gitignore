@@ -22,3 +22,4 @@ buildNumber.properties
 /target/test-classes/
 /target/maven-archiver/
 /target/maven-status/
+/.github/
