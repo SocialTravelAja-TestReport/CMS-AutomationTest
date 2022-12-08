@@ -1,2 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"CRUD flow","Verify edit role privilege only","SUCCESS","2022-12-08T09:00:53.440272609Z[Etc/UTC]","0.0","28.71"
+"CRUD flow","Verify edit role privilege only","SUCCESS","2022-12-08T09:13:18.345489128Z[Etc/UTC]","0.0","23.44"
+"Tambah Role Page","Verify Tambah Role Modal element visibility","SUCCESS","2022-12-08T16:09:32.843187+07:00[Asia/Jakarta]","0.0","20.26"

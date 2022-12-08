@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
 "CRUD flow","Verify edit role functionality","SUCCESS","2022-12-08T14:22:37.800955+07:00[Asia/Jakarta]","0.0","20.12"
 "CRUD flow","Verify delete role functionality","SUCCESS","2022-12-08T14:24:27.669875+07:00[Asia/Jakarta]","0.0","21.55"
-"CRUD flow","Verify edit role privilege only","SUCCESS","2022-12-08T09:00:53.440272609Z[Etc/UTC]","0.0","28.71"
+"CRUD flow","Verify edit role privilege only","SUCCESS","2022-12-08T09:13:18.345489128Z[Etc/UTC]","0.0","23.44"
