@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Add Itinerary Button","Add Itinerary Button functionality","FAILURE","2022-12-09T14:43:15.619182+07:00[Asia/Jakarta]","0.0","22.74"
-"Top Itinerary Delete Icon","Itinerary Page Delete Button functionality","SUCCESS","2022-12-09T14:43:38.408916+07:00[Asia/Jakarta]","0.0","24.24"
+"Top Itinerary Delete Icon","Itinerary Page Delete Button functionality","SUCCESS","2022-12-09T14:52:44.915342+07:00[Asia/Jakarta]","0.0","18.48"
+"Top Itinerary Tableview","Column visibility","SUCCESS","2022-12-09T14:53:20.914935+07:00[Asia/Jakarta]","0.0","18.41"
 "Tambah Role Page","Verify Tambah Role Modal element visibility","SUCCESS","2022-12-08T16:09:32.843187+07:00[Asia/Jakarta]","0.0","20.26"

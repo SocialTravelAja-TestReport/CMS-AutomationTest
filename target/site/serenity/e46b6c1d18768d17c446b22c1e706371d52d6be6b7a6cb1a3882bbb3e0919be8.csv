@@ -1,6 +1,6 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
 "Top Itinerary Delete Modal Batal Button","Top Itinerary Delete Modal Batal Button functionality","ERROR","2022-12-09T14:13:48.975692+07:00[Asia/Jakarta]","0.0","55.42"
-"Top Itinerary Tableview","Column visibility","SUCCESS","2022-12-09T14:44:02.679841+07:00[Asia/Jakarta]","0.0","47.94"
+"Add Itinerary Button","Add Itinerary Button functionality","FAILURE","2022-12-09T14:52:12.171471+07:00[Asia/Jakarta]","0.0","32.7"
 "CRUD flow","Verify view detailed role information","SUCCESS","2022-12-08T14:22:07.024838+07:00[Asia/Jakarta]","0.0","30.74"
 "CRUD flow","Verify create new role by multiple tap","SUCCESS","2022-12-08T14:23:13.207128+07:00[Asia/Jakarta]","0.0","31.63"
 "CRUD flow","Verify create new role functionality","SUCCESS","2022-12-08T14:23:49.902928+07:00[Asia/Jakarta]","0.0","37.75"
