@@ -1,3 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"CRUD flow","Verify edit role privilege only","SUCCESS","2022-12-08T16:08:24.081039+07:00[Asia/Jakarta]","0.0","68.71"
+"Top Itinerary Delete Icon","Itinerary Page Delete Button functionality","SUCCESS","2022-12-09T14:43:38.408916+07:00[Asia/Jakarta]","0.0","24.24"
+"Top Itinerary Tableview","Column visibility","SUCCESS","2022-12-09T14:44:02.679841+07:00[Asia/Jakarta]","0.0","47.94"
+"CRUD flow","Verify edit role privilege only","SUCCESS","2022-12-09T14:44:50.638395+07:00[Asia/Jakarta]","0.0","55.35"
 "Tambah Role Page","Verify Tambah Role Modal element visibility","SUCCESS","2022-12-08T16:09:32.843187+07:00[Asia/Jakarta]","0.0","20.26"

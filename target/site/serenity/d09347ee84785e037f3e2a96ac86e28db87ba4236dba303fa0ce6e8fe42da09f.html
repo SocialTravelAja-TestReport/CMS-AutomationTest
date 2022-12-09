@@ -147,7 +147,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [];
+            var requirementsTree = [{"text":"Top Itinerary Tableview","type":"feature","href":"d09347ee84785e037f3e2a96ac86e28db87ba4236dba303fa0ce6e8fe42da09f.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027bi bi-x-circle-fill failure-icon \u0027 title\u003d\u0027FAILURE\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e3 scenarios\u003c/span\u003e"]}];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -194,6 +194,8 @@
             <span class="breadcrumbs">
             <a href='index.html'>Home</a> > <a href="capabilities.html">Requirements</a>
 
+                > <a href="b3d0e1447aa837d711c74d58d0f4e216bfd16071ce8056b039e6455b24756ce5.html">Itinerary</a>
+                > <a href="53067cc151c1afdcd610f89b8a5c6ecd144c563180b0d3b0ea1630bf114523de.html">Index</a>
 
 
                     > <span class="truncate-40">Top Itinerary Tableview</span>
@@ -224,7 +226,7 @@
             <a href="#"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated </span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 09-12-2022 14:36</span>
     <br style="clear:left"/>
 </div>
 
@@ -239,11 +241,23 @@
                         <div clas="table">
                             <div class="row">
 
-                                    <div class="col-sm-12">
+                                   <div class="col-sm-8">
                                         <span>
                                             <h2><i class="bi bi-book"></i> Feature: Top Itinerary Tableview</h2>
                                         </span>
                                     </div>
+                                        <div class="col-sm-4">
+                                        <span class="feature-tags">
+                                            <p class="tag">
+                                                    <span class="badge feature-tag tag-badge" style="background:default;">
+                                                        <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="087e70ec664d030fca8c5e1b43dcf7cbcd1d22abe893ddd91b582f61600baff8.html">TTS-457 (tag)</a>
+                                                    </span>
+                                                    <span class="badge feature-tag tag-badge" style="background:default;">
+                                                        <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="fa0e2db681b982b6d932e9d1ee6b9269d67d9f728fb71636d19eb81ef7634af6.html">itinerary (tag)</a>
+                                                    </span>
+                                            </p>
+                                        </span>
+                                        </div>
                                 </div>
                             </div>
                         </div>
@@ -278,13 +292,253 @@
                                                 <h3>Feature Coverage By Scenario</h3>
 
                                                 <!-- REQUIREMENTS PIE CHART -->
+                                                    <div class="chart-container" style="position: relative; width:30vw">
+                                                        <canvas id="requirementChart" width="300" height="300"></canvas>
+                                                    </div>
 
                                             </div>
                                             <div class="col-sm-8">
-                                                <h3>Requirements Overview</h3>
+                                                <!--- TOC --->
+                                                <div id="toc">
+                                                    <h3>Overview</h3>
+                                                    <table class="table" id="toc-table">
+                                                                    <tr>
+                                                                        <td style="width:95%;" class="toc-title">
+                                                                            <span class="orphan-scenario-toc-entry">
+                                                                                    <a href="#a0b2d91a18f36d20cce1a83cf3fe8dc2ff9a9cadb1413bc915e79d343f74ddc7"
+                                                                                       title="View scenario details">
+                                                                                        <i class="bi bi-chat-dots"></i> Scenario: Column visibility
+                                                                                    </a>
+                                                                                </span>
+                                                                        </td>
+                                                                        <td>
 
-                                                <div id="tree"></div>
+                                                                        </td>
+                                                                        <td style="width:5%;">
+                                                                            <table>
+                                                                                <tr>
+                                                                                    <td class="icons-bar">
+                                                                                        <a style="margin-left:0.5em;padding-right: 1.5em;"
+                                                                                           href="5558526265f6d02f8c011527f8c92fd4967bf77329a33c7f06e5d9c735c7b883.html"
+                                                                                           title="View test results">
+                                                                                            <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
+                                                                                            </a>
 
+
+                                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
+                                                                                               href="5558526265f6d02f8c011527f8c92fd4967bf77329a33c7f06e5d9c735c7b883.html"
+                                                                                               title="View test results">
+                                                                                                <i class="bi bi-eyeglasses"></i>
+                                                                                            </a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td style="width:95%;" class="toc-title">
+                                                                            <span class="orphan-scenario-toc-entry">
+                                                                                    <a href="#36b20f34ecdcad2010298296322a67e8df84465f31323a797d2dd09b6c374cdf"
+                                                                                       title="View scenario details">
+                                                                                        <i class="bi bi-chat-dots"></i> Scenario: Data is sorted by rank
+                                                                                    </a>
+                                                                                </span>
+                                                                        </td>
+                                                                        <td>
+
+                                                                        </td>
+                                                                        <td style="width:5%;">
+                                                                            <table>
+                                                                                <tr>
+                                                                                    <td class="icons-bar">
+                                                                                        <a style="margin-left:0.5em;padding-right: 1.5em;"
+                                                                                           href="9195c107b417de8fd9a60c8e7edb74ede225b068121ad916cb17b97863253c8d.html"
+                                                                                           title="View test results">
+                                                                                            <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
+                                                                                            </a>
+
+                                                                                            <i class="bi bi-person manual"
+                                                                                               title="Manual test"></i>
+                                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
+                                                                                               href="9195c107b417de8fd9a60c8e7edb74ede225b068121ad916cb17b97863253c8d.html"
+                                                                                               title="View test results">
+                                                                                                <i class="bi bi-eyeglasses"></i>
+                                                                                            </a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td style="width:95%;" class="toc-title">
+                                                                            <span class="orphan-scenario-toc-entry">
+                                                                                    <a href="#815ad200533acff0fbc505ceb379a4c3775cf38877c04a6062f8ea700140eb7a"
+                                                                                       title="View scenario details">
+                                                                                        <i class="bi bi-chat-dots"></i> Scenario: Able to edit itinerary rank by dragging the row position
+                                                                                    </a>
+                                                                                </span>
+                                                                        </td>
+                                                                        <td>
+
+                                                                        </td>
+                                                                        <td style="width:5%;">
+                                                                            <table>
+                                                                                <tr>
+                                                                                    <td class="icons-bar">
+                                                                                        <a style="margin-left:0.5em;padding-right: 1.5em;"
+                                                                                           href="15da77d49dfcaf3818178ca12dc09e48da59121c6fcf12fafb66bfad880c9def.html"
+                                                                                           title="View test results">
+                                                                                            <a href='##beforetable'><i class='bi bi-x-circle-fill failure-icon ' title='FAILURE'></i></a>
+                                                                                            </a>
+
+                                                                                            <i class="bi bi-person manual"
+                                                                                               title="Manual test"></i>
+                                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
+                                                                                               href="15da77d49dfcaf3818178ca12dc09e48da59121c6fcf12fafb66bfad880c9def.html"
+                                                                                               title="View test results">
+                                                                                                <i class="bi bi-eyeglasses"></i>
+                                                                                            </a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                    </table>
+                                                </div>
+                                                <!--- END OF TOC --->
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                    <h3>Scenarios</h3>
+
+                                                        <a name="4b9db36a-f2a5-4d9f-944e-1ac32cf7c30b"></a>
+                                                        <p class="rule-tags inline-tag">
+                                                        </p>
+                                                            <div class="scenario-docs card">
+                                                                <div class="scenario-docs card-header" style="min-height:1.5em;">
+                                                                    <span class="scenario-heading">
+                                                                    Background: User already on Top Itinerary Page</span>
+                                                                    </span>
+                                                                </div>
+                                                                <div class="scenario-docs card-body">
+                                                                        <p>Given User already login as Admin</p>
+                                                                        <p>And User navigate to Top Itinerary Page</p>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <div class="scenario-docs card" id="a0b2d91a18f36d20cce1a83cf3fe8dc2ff9a9cadb1413bc915e79d343f74ddc7">
+                                                                <div class="scenario-docs card-header success" style="min-height:1.5em;">
+                                                                    <div>
+                                                                        <span class="scenario-heading">
+                                                                            <a href="5558526265f6d02f8c011527f8c92fd4967bf77329a33c7f06e5d9c735c7b883.html"
+                                                                               title="View test results">Scenario: Column visibility</a>
+                                                                        </span>
+
+                                                                        <span class="example-tags inline-tag">
+                                                                                <span class="badge tag-badge" style="background:default;">
+                                                                                    <i class="bi bi-tag-fill"></i>&nbsp;
+                                                                                    <a class="tagLink" style="background:default;" href="a6fefc3f6bb9c451b90e3a9cbedc0d74c0caad169a76cdbee7f7fef08a5ceea0.html">fixing (tag)</a>
+                                                                                </span>
+                                                                        </span>
+
+                                                                        <span class="scenario-result-icon">
+                                                                    
+
+                                                                                <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
+                                                                        </span>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="scenario-docs card-body">
+                                                                        <p><p>Then All Listed column below visible:</p>
+<table>
+<thead></thead>
+<tbody>
+<tr><td>Itinerary Title</td></tr>
+<tr><td>Nama</td></tr>
+<tr><td>Aksi</td></tr>
+<tr><td>Rank</td></tr>
+</tbody>
+</table>
+</p>
+                                                                    <div class="examples">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="scenario-docs card" id="36b20f34ecdcad2010298296322a67e8df84465f31323a797d2dd09b6c374cdf">
+                                                                <div class="scenario-docs card-header success" style="min-height:1.5em;">
+                                                                    <div>
+                                                                        <span class="scenario-heading">
+                                                                            <a href="9195c107b417de8fd9a60c8e7edb74ede225b068121ad916cb17b97863253c8d.html"
+                                                                               title="View test results">Scenario: Data is sorted by rank</a>
+                                                                        </span>
+
+                                                                        <span class="example-tags inline-tag">
+                                                                                <span class="badge tag-badge" style="background:default;">
+                                                                                    <i class="bi bi-tag-fill"></i>&nbsp;
+                                                                                    <a class="tagLink" style="background:default;" href="220d8ef6080eb8a7746b6ccaff3b44ac3c1f123a09790bb9a8ff31e7b07c9746.html">Passed (Manual)</a>
+                                                                                </span>
+                                                                                <span class="badge tag-badge" style="background:default;">
+                                                                                    <i class="bi bi-tag-fill"></i>&nbsp;
+                                                                                    <a class="tagLink" style="background:default;" href="9a26bd101adfda745f743db04eb3269922eb1ff4d86d9997efeca1ebfe995ac4.html">Manual (tag)</a>
+                                                                                </span>
+                                                                        </span>
+
+                                                                        <span class="scenario-result-icon">
+                                                                     <i
+                                                                        class="bi bi-person manual"
+                                                                        title="Manual test"></i>
+
+                                                                                <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
+                                                                        </span>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="scenario-docs card-body">
+                                                                        <p>Then Data is sorted by rank</p>
+                                                                    <div class="examples">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="scenario-docs card" id="815ad200533acff0fbc505ceb379a4c3775cf38877c04a6062f8ea700140eb7a">
+                                                                <div class="scenario-docs card-header failure" style="min-height:1.5em;">
+                                                                    <div>
+                                                                        <span class="scenario-heading">
+                                                                            <a href="15da77d49dfcaf3818178ca12dc09e48da59121c6fcf12fafb66bfad880c9def.html"
+                                                                               title="View test results">Scenario: Able to edit itinerary rank by dragging the row position</a>
+                                                                        </span>
+
+                                                                        <span class="example-tags inline-tag">
+                                                                                <span class="badge tag-badge" style="background:default;">
+                                                                                    <i class="bi bi-tag-fill"></i>&nbsp;
+                                                                                    <a class="tagLink" style="background:default;" href="9a26bd101adfda745f743db04eb3269922eb1ff4d86d9997efeca1ebfe995ac4.html">Manual (tag)</a>
+                                                                                </span>
+                                                                                <span class="badge tag-badge" style="background:default;">
+                                                                                    <i class="bi bi-tag-fill"></i>&nbsp;
+                                                                                    <a class="tagLink" style="background:default;" href="0923b7190349c5aa1076646a6b403753291c93b29933eba9c5f2656dab5ba9b7.html">Failed (Manual)</a>
+                                                                                </span>
+                                                                        </span>
+
+                                                                        <span class="scenario-result-icon">
+                                                                     <i
+                                                                        class="bi bi-person manual"
+                                                                        title="Manual test"></i>
+
+                                                                                <a href='##beforetable'><i class='bi bi-x-circle-fill failure-icon ' title='FAILURE'></i></a>
+                                                                        </span>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="scenario-docs card-body">
+                                                                        <p>Then Dragging will automatically update rank/position</p>
+                                                                    <div class="examples">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                             </div>
                                         </div>
                                     </div>
@@ -296,6 +550,9 @@
                                             <div class="col-sm-4">
                                                 <h3>Feature Coverage By Scenario</h3>
                                                 <!-- TEST RESULT PIE CHART -->
+                                                    <div class="chart-container" style="position: relative; width:30vw">
+                                                        <canvas id="resultChart" width="300" height="300"></canvas>
+                                                    </div>
                                             </div>
                                             <div class="col-sm-4">
                                                 <h4><i class="bi bi-check-square"></i> Test Outcomes</h4>
@@ -324,7 +581,6 @@
                                                            id="scenario-results">
                                                         <thead>
                                                         <tr>
-                                                                <th>feature</th>
                                                             <th class="test-name-column">Scenario</th>
                                                             <th>Steps</th>
                                                             <th>Started</th>
@@ -333,37 +589,15 @@
                                                         </tr>
                                                         </thead>
                                                         <tbody>
-                                                                <tr class="scenario-result UNDEFINED">
+                                                                <tr class="scenario-result SUCCESS">
                                                                     <td>
                                                                             <a href="0c29c367359f75ce199d2e24784e56ca64da1aa52991c66fd2c85355f13049eb.html">Top Itinerary Tableview</a>
                                                                     </td>
-                                                                    <td><a href="">Column visibility</a></td>
+                                                                    <td><a href="5558526265f6d02f8c011527f8c92fd4967bf77329a33c7f06e5d9c735c7b883.html">Column visibility</a></td>
                                                                     <td>1</td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td><i class='bi bi-pause-circle undefined-icon ' title='No test has been implemented yet'></i> <span style="display:none">UNDEFINED</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result UNDEFINED">
-                                                                    <td>
-                                                                            <a href="0c29c367359f75ce199d2e24784e56ca64da1aa52991c66fd2c85355f13049eb.html">Top Itinerary Tableview</a>
-                                                                    </td>
-                                                                    <td><a href="">Data is sorted by rank</a></td>
-                                                                    <td>1</td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td><i class='bi bi-pause-circle undefined-icon ' title='No test has been implemented yet'></i> <span style="display:none">UNDEFINED</span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr class="scenario-result UNDEFINED">
-                                                                    <td>
-                                                                            <a href="0c29c367359f75ce199d2e24784e56ca64da1aa52991c66fd2c85355f13049eb.html">Top Itinerary Tableview</a>
-                                                                    </td>
-                                                                    <td><a href="">Able to edit itinerary rank by dragging the row position</a></td>
-                                                                    <td>1</td>
-                                                                    <td></td>
-                                                                    <td></td>
-                                                                    <td><i class='bi bi-pause-circle undefined-icon ' title='No test has been implemented yet'></i> <span style="display:none">UNDEFINED</span>
+                                                                    <td>14:44:02</td>
+                                                                    <td>47s 935ms</td>
+                                                                    <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span style="display:none">SUCCESS</span>
                                                                     </td>
                                                                 </tr>
                                                         </tbody>
@@ -376,11 +610,90 @@
                                             <div class="col-sm-12">
                                                 <h3><i class="bi bi-hand-index-thumb"></i> Manual Tests</h3>
 
-                                                    No manual tests were recorded
+                                                    <table class="scenario-result-table table"
+                                                           id="manual-scenario-results">
+                                                        <thead>
+                                                        <tr>
+                                                            <th class="test-name-column" style="width:60em;">
+                                                                Scenario
+                                                            </th>
+                                                            <th>Steps</th>
+                                                            <th>Result</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr class="scenario-result SUCCESS">
+                                                                <td>
+                                                                    <a href="9195c107b417de8fd9a60c8e7edb74ede225b068121ad916cb17b97863253c8d.html">Data is sorted by rank</a>
+                                                                </td>
+                                                                <td>1</td>
+                                                                <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
+                                                                            style="display:none">SUCCESS</span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="scenario-result FAILURE">
+                                                                <td>
+                                                                    <a href="15da77d49dfcaf3818178ca12dc09e48da59121c6fcf12fafb66bfad880c9def.html">Able to edit itinerary rank by dragging the row position</a>
+                                                                </td>
+                                                                <td>1</td>
+                                                                <td><a href='##beforetable'><i class='bi bi-x-circle-fill failure-icon ' title='FAILURE'></i></a> <span
+                                                                            style="display:none">FAILURE</span>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
 
                                             </div>
                                         </div>
 
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>Tags</h3>
+                    <div class="card">
+                        <div class="card-body">
+                            <div>
+                                    <a href="087e70ec664d030fca8c5e1b43dcf7cbcd1d22abe893ddd91b582f61600baff8.html">
+                                    <span class="tag-badge badge" style="background-color:#fd938e; margin:1em;padding:4px;">
+                                        <i class="bi bi-tag-fill"></i> TTS-457&nbsp;&nbsp;&nbsp;3
+                                    </span>
+                                    </a>
+                                    <a href="fa0e2db681b982b6d932e9d1ee6b9269d67d9f728fb71636d19eb81ef7634af6.html">
+                                    <span class="tag-badge badge" style="background-color:#fd938e; margin:1em;padding:4px;">
+                                        <i class="bi bi-tag-fill"></i> Itinerary&nbsp;&nbsp;&nbsp;3
+                                    </span>
+                                    </a>
+                                    <a href="9a26bd101adfda745f743db04eb3269922eb1ff4d86d9997efeca1ebfe995ac4.html">
+                                    <span class="tag-badge badge" style="background-color:#fd938e; margin:1em;padding:4px;">
+                                        <i class="bi bi-tag-fill"></i> Manual&nbsp;&nbsp;&nbsp;2
+                                    </span>
+                                    </a>
+                                    <a href="a6fefc3f6bb9c451b90e3a9cbedc0d74c0caad169a76cdbee7f7fef08a5ceea0.html">
+                                    <span class="tag-badge badge" style="background-color:#b0cf73; margin:1em;padding:4px;">
+                                        <i class="bi bi-tag-fill"></i> Fixing&nbsp;&nbsp;&nbsp;1
+                                    </span>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                                <h5 class="card-title">Manual</h5>
+                            <div>
+                                    <a href="220d8ef6080eb8a7746b6ccaff3b44ac3c1f123a09790bb9a8ff31e7b07c9746.html">
+                                    <span class="tag-badge badge" style="background-color:#b0cf73; margin:1em;padding:4px;">
+                                        <i class="bi bi-tag-fill"></i> Passed&nbsp;&nbsp;&nbsp;1
+                                    </span>
+                                    </a>
+                                    <a href="0923b7190349c5aa1076646a6b403753291c93b29933eba9c5f2656dab5ba9b7.html">
+                                    <span class="tag-badge badge" style="background-color:#fd938e; margin:1em;padding:4px;">
+                                        <i class="bi bi-tag-fill"></i> Failed&nbsp;&nbsp;&nbsp;1
+                                    </span>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
                                     </div>
                                 </div>
                             </div>
@@ -421,7 +734,7 @@
             datasets: [{
                 label: 'Test Results',
                 fill: false,
-                data: [{meta: 'Passing tests', value: 0}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 0}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
+                data: [{meta: 'Passing tests', value: 2}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 1}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
                 backgroundColor: ['rgba(153,204,51,0.5)','rgba(165, 199, 238, 0.5)','rgba(168, 168, 168, 0.5)','rgba(238, 224, 152, 0.75)','rgba(255, 153, 102, 0.5)','rgba(255, 22, 49, 0.5)','rgba(255, 97, 8, 0.5)','rgba(255, 104, 255, 0.5)','rgba(83, 50, 168, 0.5)'],
                 borderColor: ['rgba(153,204,51,1)','rgba(165, 199, 238, 1)','rgba(168, 168, 168, 1)','rgba(238, 224, 152, 1)','rgba(255, 153, 102, 1)','rgba(255, 22, 49, 1)','rgba(255, 97, 8, 1)','rgba(255, 104, 255, 1)','rgba(83, 50, 168, 1)'],
                 borderWidth: 1,
@@ -472,7 +785,7 @@
                         ctx.font = fontSize + "em sans-serif";
                         ctx.textBaseline = "middle";
 
-                        var text = " "
+                        var text = "67%"
                         textX = 10 + Math.round((width - ctx.measureText(text).width) / 2);
                         textY = (height / 2) - 40;
 
@@ -516,7 +829,7 @@
             datasets: [{
                 label: 'Feature Coverage',
                 fill: false,
-                data: [{meta: 'Passing tests', value: 0}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 0}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
+                data: [{meta: 'Passing tests', value: 2}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 1}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
                 backgroundColor: ['rgba(153,204,51,0.5)','rgba(165, 199, 238, 0.5)','rgba(168, 168, 168, 0.5)','rgba(238, 224, 152, 0.75)','rgba(255, 153, 102, 0.5)','rgba(255, 22, 49, 0.5)','rgba(255, 97, 8, 0.5)','rgba(255, 104, 255, 0.5)','rgba(83, 50, 168, 0.5)'],
                 borderColor: ['rgba(153,204,51,1)','rgba(165, 199, 238, 1)','rgba(168, 168, 168, 1)','rgba(238, 224, 152, 1)','rgba(255, 153, 102, 1)','rgba(255, 22, 49, 1)','rgba(255, 97, 8, 1)','rgba(255, 104, 255, 1)','rgba(83, 50, 168, 1)'],
                 borderWidth: 1,
@@ -567,7 +880,7 @@
                         ctx.font = fontSize + "em sans-serif";
                         ctx.textBaseline = "middle";
 
-                        var text = " "
+                        var text = "67%"
                         textX = 10 + Math.round((width - ctx.measureText(text).width) / 2);
                         textY = (height / 2) - 40;
 
@@ -612,14 +925,14 @@
             datasets: [
                 {
                     label: 'Automated',
-                    data: [0,0,0,0,0,0,0,0],
+                    data: [1,0,0,0,0,0,0,0],
                     backgroundColor: ['rgba(153,204,51,0.5)','rgba(165, 199, 238, 0.5)','rgba(168, 168, 168, 0.5)','rgba(238, 224, 152, 0.75)','rgba(255, 153, 102, 0.5)','rgba(255, 22, 49, 0.5)','rgba(255, 97, 8, 0.5)','rgba(255, 104, 255, 0.5)','rgba(83, 50, 168, 0.5)'],
                     borderColor: ['rgba(153,204,51,1)','rgba(165, 199, 238, 1)','rgba(168, 168, 168, 1)','rgba(238, 224, 152, 1)','rgba(255, 153, 102, 1)','rgba(255, 22, 49, 1)','rgba(255, 97, 8, 1)','rgba(255, 104, 255, 1)','rgba(83, 50, 168, 1)'],
                     borderWidth: 1
                 },
                 {
                     label: 'Manual',
-                    data: [0,0,0,0,0,0,0,0],
+                    data: [1,0,0,0,0,1,0,0],
                     backgroundColor: ['rgba(153,204,51,0.25)','rgba(165, 199, 238, 0.25)','rgba(168, 168, 168, 0.25)','rgba(238, 224, 152, 0.375)','rgba(255, 153, 102, 0.25)','rgba(255, 22, 49, 0.25)','rgba(255, 97, 8, 0.25)','rgba(255, 104, 255, 0.25)','rgba(83, 50, 168, 0.25)'],
                     borderColor: ['rgba(153,204,51,1)','rgba(165, 199, 238, 1)','rgba(168, 168, 168, 1)','rgba(238, 224, 152, 1)','rgba(255, 153, 102, 1)','rgba(255, 22, 49, 1)','rgba(255, 97, 8, 1)','rgba(255, 104, 255, 1)','rgba(83, 50, 168, 1)'],
                     borderWidth: 1
@@ -695,7 +1008,7 @@
             datasets: [{
                 label: 'Number of tests per duration',
                 fill: false,
-                data: ['0','0','0','0','0','0','0','0'],
+                data: ['0','2','0','1','0','0','0','0'],
                 backgroundColor: 'rgba(83, 146, 255,0.5)',
                 borderColor: 'rgba(83, 146, 255, 1)',
             }]

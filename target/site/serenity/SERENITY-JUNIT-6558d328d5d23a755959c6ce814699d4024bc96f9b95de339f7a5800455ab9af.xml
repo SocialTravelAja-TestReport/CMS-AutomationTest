@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Top Itinerary Delete Modal Hapus Button" skipped="0" tests="1" time="25.08" timestamp="2022-12-09 02:14:44"><testcase name="Top Itinerary Delete Modal Hapus Button functionality"><error message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='app']/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/table/tbody/tr/td[3]/button (tried for 5 second(s) with 500 milliseconds interval)&#10;Build info: version: '4.6.0', revision: '79f1c02ae20'&#10;System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.18.0-kali7-amd64', java.version: '11.0.16'&#10;Driver info: net.thucydides.core.webdriver.DevToolsWebDriverFacade&#10;Build info: version: '4.6.0', revision: '79f1c02ae20'&#10;System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.18.0-kali7-amd64', java.version: '11.0.16'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='app']/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/table/tbody/tr/td[3]/button (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.18.0-kali7-amd64', java.version: '11.0.16'
+Driver info: net.thucydides.core.webdriver.DevToolsWebDriverFacade
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.18.0-kali7-amd64', java.version: '11.0.16'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='app']/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/table/tbody/tr/td[3]/button (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.18.0-kali7-amd64', java.version: '11.0.16'
+Driver info: net.thucydides.core.webdriver.DevToolsWebDriverFacade
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.18.0-kali7-amd64', java.version: '11.0.16'
+Driver info: driver.version: unknown
+cucumber.starter@1.0.0-SNAPSHOT/id.travelaja.Interactions.UserInteractions.waitingVisibilityOfElement(UserInteractions.java:18)
+cucumber.starter@1.0.0-SNAPSHOT/id.travelaja.Interactions.UserInteractions.clickOn(UserInteractions.java:29)
+cucumber.starter@1.0.0-SNAPSHOT/id.travelaja.StepDefs.TopItineraryStepDef.userClickDeleteItineraryButton(TopItineraryStepDef.java:43)
+✽.User click delete itinerary button(file:///home/anjar/Project/SocialTravel/CMS-Automation/src/test/resources/features/Itinerary/DeleteModal/itinerary-delete-modal-delete-button.feature:7)
+</system-err></testcase></testsuite>

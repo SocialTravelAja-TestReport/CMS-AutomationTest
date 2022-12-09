@@ -1,2 +1,6 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
+"Top Itinerary Delete Modal Batal Button","Top Itinerary Delete Modal Batal Button functionality","ERROR","2022-12-09T14:13:48.975692+07:00[Asia/Jakarta]","0.0","55.42"
+"Top Itinerary Delete Modal Hapus Button","Top Itinerary Delete Modal Hapus Button functionality","ERROR","2022-12-09T14:14:44.513549+07:00[Asia/Jakarta]","0.0","25.08"
+"Add Itinerary Button","Add Itinerary Button functionality","FAILURE","2022-12-09T14:43:15.619182+07:00[Asia/Jakarta]","0.0","22.74"
+"Top Itinerary Tableview","Able to edit itinerary rank by dragging the row position","FAILURE","2022-12-09T14:36:37.603656+07:00[Asia/Jakarta]","0.0","5.04"
 "CRUD flow","Verify if Nama Role is unique","FAILURE","2022-12-08T14:23:08.137987+07:00[Asia/Jakarta]","0.0","5.05"

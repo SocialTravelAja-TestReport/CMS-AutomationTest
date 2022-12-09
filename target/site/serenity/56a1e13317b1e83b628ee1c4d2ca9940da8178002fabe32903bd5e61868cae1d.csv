@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Top Itinerary Tableview","Data is sorted by rank","SUCCESS","2022-12-09T14:36:32.499896+07:00[Asia/Jakarta]","0.0","5.07"
+"Top Itinerary Tableview","Able to edit itinerary rank by dragging the row position","FAILURE","2022-12-09T14:36:37.603656+07:00[Asia/Jakarta]","0.0","5.04"

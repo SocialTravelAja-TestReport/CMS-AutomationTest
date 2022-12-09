@@ -1,4 +1,4 @@
-@itinerary
+@itinerary @TTS-457
 Feature: Top Itinerary Search Bar functionality
 
   Background: User already on Top Itinerary Page

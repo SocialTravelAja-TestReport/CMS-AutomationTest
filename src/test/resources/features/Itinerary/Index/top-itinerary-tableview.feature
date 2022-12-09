@@ -1,15 +1,17 @@
-@itinerary
+@itinerary @TTS-457
 Feature: Top Itinerary Tableview
 
   Background: User already on Top Itinerary Page
     Given User already login as Admin
     And User navigate to Top Itinerary Page
 
+  @fixing
   Scenario: Column visibility
     Then All Listed column below visible:
       | Itinerary Title |
-      | Name            |
+      | Nama            |
       | Aksi            |
+      | Rank            |
 
   @Manual
   @Manual:Passed

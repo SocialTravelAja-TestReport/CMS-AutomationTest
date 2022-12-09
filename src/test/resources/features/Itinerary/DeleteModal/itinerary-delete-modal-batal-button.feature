@@ -1,4 +1,4 @@
-@itinerary
+@itinerary @TTS-459
 Feature: Top Itinerary Delete Modal Batal Button
 
   Background: User already on Top Itinerary Page
