@@ -57,4 +57,12 @@ public class UserInteractions {
     public String getElementText(By element){
         return getDriver().findElement(element).getText();
     }
+
+    public int countElements(By element){
+        return getDriver().findElements(element).size();
+    }
+
+    public void findElement(By element){
+        getDriver().findElement(element);
+    }
 }

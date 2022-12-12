@@ -8,6 +8,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"pretty"},
         features = "src/test/resources/features/",
-        tags = "@TTS-457"
+        tags = "@itinerary"
 )
 public class CucumberTestSuite {}

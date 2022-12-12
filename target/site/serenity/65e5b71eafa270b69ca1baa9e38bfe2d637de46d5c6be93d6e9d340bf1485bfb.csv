@@ -1,5 +1,6 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Top Itinerary Tableview","Data is sorted by rank","SUCCESS","2022-12-09T14:53:39.396005+07:00[Asia/Jakarta]","0.0","5.05"
+"Top Itinerary Tableview","Data is sorted by rank","SUCCESS","2022-12-12T14:59:52.257409+07:00[Asia/Jakarta]","0.0","5.07"
+"Modal Add Itinerary Tableview","Modal Add Itinerary List itinerary","SUCCESS","2022-12-12T15:00:41.741436+07:00[Asia/Jakarta]","0.0","5.03"
 "CRUD flow","Verify create new role without privilege","SUCCESS","2022-12-08T14:22:57.981415+07:00[Asia/Jakarta]","0.0","5.07"
 "CRUD flow","Verify create new role with valid privilege","SUCCESS","2022-12-08T14:23:03.072565+07:00[Asia/Jakarta]","0.0","5.04"
 "CRUD flow","Verify create new role with blank nama role","SUCCESS","2022-12-08T14:23:44.85504+07:00[Asia/Jakarta]","0.0","5.03"

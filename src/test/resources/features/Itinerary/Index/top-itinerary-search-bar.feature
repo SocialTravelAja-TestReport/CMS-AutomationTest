@@ -6,8 +6,8 @@ Feature: Top Itinerary Search Bar functionality
     And User navigate to Top Itinerary Page
 
   Scenario: Search Top Itinerary data by name
-    When Search Top Itinerary with name "Itinerary Title - 0"
-    Then Top Itinerary with name "Itinerary Title - 0" appeared
+    When Search Top Itinerary with name "Arif Rachman"
+    Then Top Itinerary with name "Arif Rachman" appeared
 
 #  Scenario: Search Top Itinerary data by Email
 #    When Search Top Itinerary with email "contoh-email@gmail.com"

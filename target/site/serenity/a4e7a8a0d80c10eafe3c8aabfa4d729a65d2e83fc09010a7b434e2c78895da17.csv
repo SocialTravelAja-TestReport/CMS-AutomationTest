@@ -7,4 +7,4 @@
 "CRUD flow","Verify create new role with blank nama role","SUCCESS","2022-12-08T14:23:44.85504+07:00[Asia/Jakarta]","0.0","5.03"
 "CRUD flow","Verify create new role functionality","SUCCESS","2022-12-08T14:23:49.902928+07:00[Asia/Jakarta]","0.0","37.75"
 "CRUD flow","Verify delete role functionality","SUCCESS","2022-12-08T14:24:27.669875+07:00[Asia/Jakarta]","0.0","21.55"
-"CRUD flow","Verify edit role privilege only","SUCCESS","2022-12-09T14:44:50.638395+07:00[Asia/Jakarta]","0.0","55.35"
+"CRUD flow","Verify edit role privilege only","SUCCESS","2022-12-12T15:24:40.511284+07:00[Asia/Jakarta]","0.0","18.47"

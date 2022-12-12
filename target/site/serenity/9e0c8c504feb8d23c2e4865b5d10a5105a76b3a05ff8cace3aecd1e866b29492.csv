@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Modal Add Itinerary add icon","Modal Add Itinerary add icon","SUCCESS","2022-12-12T15:00:02.406764+07:00[Asia/Jakarta]","0.0","20.93"
+"Modal Add Itinerary Tableview","Modal Add Itinerary Column visibility","SUCCESS","2022-12-12T15:00:23.365102+07:00[Asia/Jakarta]","0.0","18.36"
+"Modal Add Itinerary Tableview","Modal Add Itinerary Pagination limit","SUCCESS","2022-12-12T15:00:46.787228+07:00[Asia/Jakarta]","0.0","18.09"
+"Modal Add Itinerary Search bar","Search itinerary by ""Nama Itinerary""","SUCCESS","2022-12-12T15:01:26.274517+07:00[Asia/Jakarta]","0.0","17.83"
+"Modal Add Itinerary Search bar","Search itinerary with blank value","SUCCESS","2022-12-12T15:01:44.12015+07:00[Asia/Jakarta]","0.0","17.51"
+"Modal Add Itinerary Search bar","Search itinerary by Itinerary Title","FAILURE","2022-12-12T15:24:20.624557+07:00[Asia/Jakarta]","0.0","19.84"

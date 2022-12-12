@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Modal Add Itinerary Search bar","Search itinerary by ""Nama Itinerary""","SUCCESS","2022-12-12T15:01:26.274517+07:00[Asia/Jakarta]","0.0","17.83"
+"Modal Add Itinerary Search bar","Search itinerary with blank value","SUCCESS","2022-12-12T15:01:44.12015+07:00[Asia/Jakarta]","0.0","17.51"
+"Modal Add Itinerary Search bar","Search itinerary by Itinerary Title","FAILURE","2022-12-12T15:24:20.624557+07:00[Asia/Jakarta]","0.0","19.84"

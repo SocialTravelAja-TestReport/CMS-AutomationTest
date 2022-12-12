@@ -59,7 +59,6 @@ Feature: CRUD flow
     When User click confirm delete a role
     Then Data deleted
 
-  @fixing
   Scenario: Verify edit role privilege only
     When User click edit role button
     And User edit role with some privilege

@@ -49,4 +49,5 @@ public class TableViewStepDef extends UserInteractions {
     public void dataIsLimitedByByDefault(int limit) {
         Assertions.assertTrue(VerifyVisibility.elementShouldNotExist(By.cssSelector("tr:nth-child("+ (limit+1) +") > td:nth-child(1)")));
     }
+
 }

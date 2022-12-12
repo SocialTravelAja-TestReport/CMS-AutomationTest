@@ -5,7 +5,6 @@ Feature: Add Itinerary Button
     Given User already login as Admin
     And User navigate to Top Itinerary Page
 
-  @fixing
   Scenario: Add Itinerary Button functionality
     When User click add itinerary button
-    Then User is on Add Itinerary Page
+    Then Add Itinerary modal open

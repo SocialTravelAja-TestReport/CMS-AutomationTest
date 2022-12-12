@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Modal Add Itinerary Search bar" skipped="0" tests="1" time="19.84" timestamp="2022-12-12 03:24:20"><testcase name="Search itinerary by Itinerary Title"><failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">expected: &lt;true&gt; but was: &lt;false&gt;</failure><system-err>expected: &lt;true&gt; but was: &lt;false&gt;
+cucumber.starter@1.0.0-SNAPSHOT/id.travelaja.StepDefs.TopItineraryStepDef.topItineraryWithNameAppearedInAddItineraryModal(TopItineraryStepDef.java:124)
+✽.Top Itinerary with name "Title Arif Rachman" appeared in Add Itinerary Modal(file:///home/anjar/Project/SocialTravel/CMS-Automation/src/test/resources/features/Itinerary/ModalAddItinerary/modal-add-itinterary-search.feature:12)
+</system-err></testcase></testsuite>

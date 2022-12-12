@@ -5,7 +5,6 @@ Feature: Top Itinerary Tableview
     Given User already login as Admin
     And User navigate to Top Itinerary Page
 
-  @fixing
   Scenario: Column visibility
     Then All Listed column below visible:
       | Itinerary Title |

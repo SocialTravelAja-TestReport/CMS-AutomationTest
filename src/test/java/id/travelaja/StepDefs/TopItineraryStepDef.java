@@ -9,10 +9,12 @@ import io.cucumber.java.en.When;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
 import static id.travelaja.Pages.AddItineraryPage.ADD_ITINERARY_URL;
+import static id.travelaja.Pages.ModalAddItinerary.*;
 import static id.travelaja.Pages.TopItineraryPage.*;
 import static net.serenitybdd.core.Serenity.getDriver;
 
@@ -32,15 +34,15 @@ public class TopItineraryStepDef extends UserInteractions {
         clickOn(ADD_ITINERARY_BUTTON);
     }
 
-    @Then("User is on Add Itinerary Page")
+    @Then("Add Itinerary modal open")
     public void userIsOnAddItineraryPage() throws InterruptedException {
         Thread.sleep(500);
-        Assertions.assertEquals(ADD_ITINERARY_URL, getDriver().getCurrentUrl());
+        VerifyVisibility.ofElement(ADD_ITINERARY_MODAL);
     }
 
     @When("User click delete itinerary button")
     public void userClickDeleteItineraryButton() {
-        clickOn(DELETE_FIRST_ITINERARY);
+        clickOn(DELETE_ITINERARY_INDEX_1);
     }
 
     @Then("Delete itinerary confirmation modal appeared")
@@ -80,7 +82,7 @@ public class TopItineraryStepDef extends UserInteractions {
 
     @When("User click Batal Button on Top Itinerary Delete Modal")
     public void userClickBatalButtonOnTopItineraryDeleteModal() {
-        clickOn(By.xpath("//div[2]/div[2]/button/div"));
+        clickOn(CANCEL_DELETE_ITINERARY);
     }
 
     @Then("Top Itinerary Delete Modal is closed")
@@ -91,5 +93,41 @@ public class TopItineraryStepDef extends UserInteractions {
     @And("User redirected to Top Itinerary Page")
     public void userRedirectedToTopItineraryPage() {
         Assertions.assertEquals(TOP_ITINERARY_URL, getDriver().getCurrentUrl());
+    }
+
+    @When("User click add icon on Modal Add Itinerary")
+    public void userClickAddIconOnModalAddItinerary() {
+        clickOn(ADD_ITINERARY_TO_TOP_ITINERARY_INDEX_1);
+    }
+
+    @And("Modal {string} appeared")
+    public void modalAppeared(String text) {
+        VerifyVisibility.ofTextInDOM(text);
+    }
+
+    @Then("Pagination limit is set to {int} row per page")
+    public void paginationLimitIsSetToRowPerPage(int limit) {
+        WebElement parent = getDriver().findElement(ADD_ITINERARY_MODAL);
+        int elementCount = parent.findElements(ITINERARY_LIST_ROW).size();
+        Assertions.assertEquals(limit, elementCount);
+    }
+
+    @When("User search top itinerary query {string} on Modal Add Itinerary")
+    public void userSearchTopItineraryQueryOnModalAddItinerary(String query) {
+        WebElement parent = getDriver().findElement(By.cssSelector(".ActionButton-module__filters___L8bKS"));
+        parent.findElement(ADD_ITINERARY_SEARCH_BAR).sendKeys(query);
+    }
+
+    @Then("Top Itinerary with name {string} appeared in Add Itinerary Modal")
+    public void topItineraryWithNameAppearedInAddItineraryModal(String query) {
+        WebElement parent = getDriver().findElement(By.cssSelector(".ActionButton-module__modalAdd___tKMzH"));
+        Assertions.assertTrue(VerifyVisibility.ofTextInElement(query, parent));
+    }
+
+    @Then("All itinerary should by visible in Add Itinerary Modal")
+    public void allItineraryShouldByVisibleInAddItineraryModal() {
+        WebElement parent = getDriver().findElement(ADD_ITINERARY_MODAL);
+        int elementCount = parent.findElements(ITINERARY_LIST_ROW).size();
+        Assertions.assertEquals(5, elementCount);
     }
 }
